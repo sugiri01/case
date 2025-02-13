@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Case Study: Smart Agriculture Solutions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .slide {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            min-height: 600px;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .slide.active {
+            display: block;
+            opacity: 1;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #166534 0%, #22c55e 100%);
+        }
+        .case-card {
+            background: white;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #22c55e;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-6xl mx-auto p-4">
+        <!-- Title Slide -->
+        <div class="slide active">
+            <div class="gradient-bg rounded-xl p-12 text-white text-center h-full flex flex-col items-center justify-center">
+                <h1 class="text-5xl font-bold mb-6">Smart Agriculture Solutions</h1>
+                <h2 class="text-3xl mb-8">AI Case Study</h2>
+                <p class="text-xl">EdAthena Academy - Advanced AI Track</p>
+            </div>
+        </div>
+
+        <!-- Background Slide -->
+        <div class="slide p-12">
+            <h2 class="text-3xl font-bold text-green-600 mb-8">Background</h2>
+            <div class="case-card">
+                <h3 class="text-2xl font-semibold mb-4">AgroTech Innovations</h3>
+                <p class="text-gray-700 mb-4">A startup focused on revolutionizing small-scale farming in developing regions through AI-powered solutions.</p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-2">Available Resources:</h4>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Satellite imagery data</li>
+                            <li>Local weather station data</li>
+                            <li>Soil sensor networks</li>
+                            <li>Historical crop data</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2">Infrastructure:</h4>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Basic mobile networks</li>
+                            <li>Limited internet connectivity</li>
+                            <li>Basic computational resources</li>
+                            <li>Local farming knowledge base</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Challenges Slide -->
+        <div class="slide p-12">
+            <h2 class="text-3xl font-bold text-green-600 mb-8">The Challenges</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Technical Challenges</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Integration of diverse data sources</li>
+                        <li>Offline-first architecture design</li>
+                        <li>Resource-constrained deployment</li>
+                        <li>Model interpretability for farmers</li>
+                    </ul>
+                </div>
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Social Challenges</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Cultural adaptation of solutions</li>
+                        <li>Digital literacy barriers</li>
+                        <li>Traditional farming integration</li>
+                        <li>Community acceptance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Requirements Slide -->
+        <div class="slide p-12">
+            <h2 class="text-3xl font-bold text-green-600 mb-8">Your Task</h2>
+            <div class="case-card">
+                <h3 class="text-2xl font-semibold mb-4">Design Requirements</h3>
+                <div class="grid grid-cols-1 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-2">System Architecture:</h4>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Data collection and preprocessing strategy</li>
+                            <li>Model selection and training approach</li>
+                            <li>Deployment and maintenance plan</li>
+                            <li>User interface for farmers</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2">Risk Mitigation:</h4>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Technical risk assessment</li>
+                            <li>Social/cultural impact analysis</li>
+                            <li>Environmental considerations</li>
+                            <li>Economic sustainability plan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Evaluation Criteria -->
+        <div class="slide p-12">
+            <h2 class="text-3xl font-bold text-green-600 mb-8">Evaluation Criteria</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Technical Innovation (25%)</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Technical constraint handling</li>
+                        <li>Solution scalability</li>
+                        <li>System maintainability</li>
+                    </ul>
+                </div>
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Social Impact (25%)</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Cultural sensitivity</li>
+                        <li>Community benefit</li>
+                        <li>Accessibility measures</li>
+                    </ul>
+                </div>
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Sustainability (25%)</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Environmental impact</li>
+                        <li>Economic viability</li>
+                        <li>Long-term maintenance</li>
+                    </ul>
+                </div>
+                <div class="case-card">
+                    <h3 class="text-xl font-semibold mb-4">Feasibility (25%)</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Resource requirements</li>
+                        <li>Implementation timeline</li>
+                        <li>Risk management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deliverables Slide -->
+        <div class="slide p-12">
+            <h2 class="text-3xl font-bold text-green-600 mb-8">Required Deliverables</h2>
+            <div class="case-card">
+                <div class="grid grid-cols-1 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Documentation Requirements</h3>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Comprehensive system design document</li>
+                            <li>Risk assessment and mitigation plan</li>
+                            <li>Detailed implementation timeline</li>
+                            <li>Cost-benefit analysis</li>
+                            <li>Social impact evaluation framework</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card mt-6 bg-green-50 p-6 rounded-lg">
+                        <h4 class="font-semibold text-green-600 mb-2">Key Considerations:</h4>
+                        <p class="text-gray-700">Your solution should demonstrate originality, practical feasibility, and a deep understanding of both technical and social challenges. Focus on creating a sustainable and scalable solution that respects local farming practices while introducing innovative AI-driven improvements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="fixed bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-4">
+            <button id="prevBtn" class="px-6 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors">Previous</button>
+            <button id="nextBtn" class="px-6 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors">Next</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+
+            function updateSlide(direction) {
+                slides[currentSlide].classList.remove('active');
+                if (direction === 'next') {
+                    currentSlide = (currentSlide + 1) % slides.length;
+                } else {
+                    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                }
+                slides[currentSlide].classList.add('active');
+            }
+
+            document.getElementById('nextBtn').addEventListener('click', () => updateSlide('next'));
+            document.getElementById('prevBtn').addEventListener('click', () => updateSlide('prev'));
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') updateSlide('next');
+                if (e.key === 'ArrowLeft') updateSlide('prev');
+            });
+        });
+    </script>
+</body>
+</html>
